@@ -1,0 +1,44 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Inter", sans-serif;
+    font-size: 15px;
+}
+
+window {
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: rgba(23, 25, 34, 0.72);   /* стекло: alpha меньше = прозрачнее */
+    color: #d7dae0;
+}
+
+#outer-box { padding: 14px; }
+
+#input {
+    margin-bottom: 12px;
+    padding: 10px 14px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #d7dae0;
+    caret-color: #7aa2f7;
+}
+
+#input:focus {
+    border-color: rgba(122, 162, 247, 0.55);
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#inner-box, #scroll { margin: 0; }
+
+#entry {
+    margin: 2px 0;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#entry:selected { background-color: rgba(122, 162, 247, 0.18); }   /* акцент */
+
+#img { margin-right: 10px; }
+
+#text { color: #d7dae0; }
+#entry:selected #text { color: #ffffff; }

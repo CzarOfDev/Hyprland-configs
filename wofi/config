@@ -1,0 +1,12 @@
+show=drun
+prompt=
+width=520
+lines=8
+location=center
+allow_images=true
+image_size=26
+matching=fuzzy
+insensitive=true
+hide_scroll=true
+no_actions=true
+gtk_dark=true
